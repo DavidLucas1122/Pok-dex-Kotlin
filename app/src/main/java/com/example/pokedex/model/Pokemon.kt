@@ -6,11 +6,6 @@ data class Pokemon(
     @SerializedName("name")
     val nome: String,
 
-    @SerializedName("id")
-    val id: Int,
-
-    @SerializedName("sprites")
-    val sprites: Sprites
+    @SerializedName("url")
+    val url: String
 )
-
-
